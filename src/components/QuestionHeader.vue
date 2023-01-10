@@ -16,8 +16,14 @@ const { questionStatus, barPercentage } = defineProps([
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 header {
   margin-top: 50px;
+}
+h2{
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Mukta', sans-serif;
+  color: #254292;
 }
 .bar {
   width: 250px;

@@ -35,6 +35,8 @@ const emitSelectedOption = (isCorrect) => {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .options {
   display: flex;
   cursor: pointer;
@@ -46,11 +48,16 @@ const emitSelectedOption = (isCorrect) => {
   width: 50px;
   text-align: center;
 }
+.question{
+  font-family: 'Roboto', sans-serif;
+  color: #2C3A47;
+}
 .options-value {
   background-color: #cad3c8;
   height: 50px;
   width: 100%;
   text-align: left;
   padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
 }
 </style>
